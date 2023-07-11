@@ -1,46 +1,16 @@
-<!doctype html>
-
+<!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>HTML Example</title>
-  
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/about.css">
+    <title>합격 여부 확인</title>
 </head>
 <body>
-  <section class="center">
-    <aside class="sidebar"></aside>
-    
-    <section class="contents">
-      <!-- page will be include here -->
-      <section id="page" class="page">
-        <section id="about">
-          <section class="frame">
-            <h2><b>HELLO</b>WORLD</h2>
-            
-            <div class="cat">
-              <div class="picture">
-                <img src="images/mew.png" alt="Mew">
-              </div>
-              <small>Mew</small>
-            </div>
-            <div class="cat">
-              <div class="picture">
-                <img src="images/siesta.png" alt="Siesta">
-              </div>
-              <small>Siesta</small>
-            </div>
-            <div class="cat">
-              <div class="picture">
-                <img src="images/tiger.png" alt="Tiger">
-              </div>
-              <small>Tiger</small>
-            </div>
-          </section>
-        </section>
-      </section>
-    </section>
-  </section>
+    <h1>합격 여부 확인</h1>
+    <form method="post" action="/">
+        <label for="name">이름:</label>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="id_number">고유번호:</label>
+        <input type="text" id="id_number" name="id_number" required><br><br>
+        <input type="submit" value="확인">
+    </form>
 </body>
 </html>
